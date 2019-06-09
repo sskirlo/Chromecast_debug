@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A92BD622ACA0C60099AF94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A92BD522ACA0C60099AF94 /* AppDelegate.swift */; };
+		F9A92BD822ACA0C60099AF94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A92BD722ACA0C60099AF94 /* ViewController.swift */; };
+		F9A92BDB22ACA0C60099AF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A92BD922ACA0C60099AF94 /* Main.storyboard */; };
+		F9A92BDD22ACA0C70099AF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A92BDC22ACA0C70099AF94 /* Assets.xcassets */; };
+		F9A92BE022ACA0C70099AF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A92BDE22ACA0C70099AF94 /* LaunchScreen.storyboard */; };
+		F9A92BEB22ACA0C70099AF94 /* Chromecast_debugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A92BEA22ACA0C70099AF94 /* Chromecast_debugTests.swift */; };
+		F9A92BF622ACA0C70099AF94 /* Chromecast_debugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A92BF522ACA0C70099AF94 /* Chromecast_debugUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9A92BE722ACA0C70099AF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A92BCA22ACA0C60099AF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A92BD122ACA0C60099AF94;
+			remoteInfo = Chromecast_debug;
+		};
+		F9A92BF222ACA0C70099AF94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A92BCA22ACA0C60099AF94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A92BD122ACA0C60099AF94;
+			remoteInfo = Chromecast_debug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9A92BD222ACA0C60099AF94 /* Chromecast_debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromecast_debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A92BD522ACA0C60099AF94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9A92BD722ACA0C60099AF94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9A92BDA22ACA0C60099AF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9A92BDC22ACA0C70099AF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9A92BDF22ACA0C70099AF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9A92BE122ACA0C70099AF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A92BE622ACA0C70099AF94 /* Chromecast_debugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chromecast_debugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A92BEA22ACA0C70099AF94 /* Chromecast_debugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chromecast_debugTests.swift; sourceTree = "<group>"; };
+		F9A92BEC22ACA0C70099AF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A92BF122ACA0C70099AF94 /* Chromecast_debugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chromecast_debugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A92BF522ACA0C70099AF94 /* Chromecast_debugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chromecast_debugUITests.swift; sourceTree = "<group>"; };
+		F9A92BF722ACA0C70099AF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A92BCF22ACA0C60099AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BE322ACA0C70099AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BEE22ACA0C70099AF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9A92BC922ACA0C60099AF94 = {
+			isa = PBXGroup;
+			children = (
+				F9A92BD422ACA0C60099AF94 /* Chromecast_debug */,
+				F9A92BE922ACA0C70099AF94 /* Chromecast_debugTests */,
+				F9A92BF422ACA0C70099AF94 /* Chromecast_debugUITests */,
+				F9A92BD322ACA0C60099AF94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A92BD322ACA0C60099AF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A92BD222ACA0C60099AF94 /* Chromecast_debug.app */,
+				F9A92BE622ACA0C70099AF94 /* Chromecast_debugTests.xctest */,
+				F9A92BF122ACA0C70099AF94 /* Chromecast_debugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A92BD422ACA0C60099AF94 /* Chromecast_debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9A92BD522ACA0C60099AF94 /* AppDelegate.swift */,
+				F9A92BD722ACA0C60099AF94 /* ViewController.swift */,
+				F9A92BD922ACA0C60099AF94 /* Main.storyboard */,
+				F9A92BDC22ACA0C70099AF94 /* Assets.xcassets */,
+				F9A92BDE22ACA0C70099AF94 /* LaunchScreen.storyboard */,
+				F9A92BE122ACA0C70099AF94 /* Info.plist */,
+			);
+			path = Chromecast_debug;
+			sourceTree = "<group>";
+		};
+		F9A92BE922ACA0C70099AF94 /* Chromecast_debugTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A92BEA22ACA0C70099AF94 /* Chromecast_debugTests.swift */,
+				F9A92BEC22ACA0C70099AF94 /* Info.plist */,
+			);
+			path = Chromecast_debugTests;
+			sourceTree = "<group>";
+		};
+		F9A92BF422ACA0C70099AF94 /* Chromecast_debugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A92BF522ACA0C70099AF94 /* Chromecast_debugUITests.swift */,
+				F9A92BF722ACA0C70099AF94 /* Info.plist */,
+			);
+			path = Chromecast_debugUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A92BD122ACA0C60099AF94 /* Chromecast_debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A92BFA22ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debug" */;
+			buildPhases = (
+				F9A92BCE22ACA0C60099AF94 /* Sources */,
+				F9A92BCF22ACA0C60099AF94 /* Frameworks */,
+				F9A92BD022ACA0C60099AF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromecast_debug;
+			productName = Chromecast_debug;
+			productReference = F9A92BD222ACA0C60099AF94 /* Chromecast_debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9A92BE522ACA0C70099AF94 /* Chromecast_debugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A92BFD22ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debugTests" */;
+			buildPhases = (
+				F9A92BE222ACA0C70099AF94 /* Sources */,
+				F9A92BE322ACA0C70099AF94 /* Frameworks */,
+				F9A92BE422ACA0C70099AF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A92BE822ACA0C70099AF94 /* PBXTargetDependency */,
+			);
+			name = Chromecast_debugTests;
+			productName = Chromecast_debugTests;
+			productReference = F9A92BE622ACA0C70099AF94 /* Chromecast_debugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9A92BF022ACA0C70099AF94 /* Chromecast_debugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A92C0022ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debugUITests" */;
+			buildPhases = (
+				F9A92BED22ACA0C70099AF94 /* Sources */,
+				F9A92BEE22ACA0C70099AF94 /* Frameworks */,
+				F9A92BEF22ACA0C70099AF94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A92BF322ACA0C70099AF94 /* PBXTargetDependency */,
+			);
+			name = Chromecast_debugUITests;
+			productName = Chromecast_debugUITests;
+			productReference = F9A92BF122ACA0C70099AF94 /* Chromecast_debugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A92BCA22ACA0C60099AF94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Victoria Messuri";
+				TargetAttributes = {
+					F9A92BD122ACA0C60099AF94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F9A92BE522ACA0C70099AF94 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F9A92BD122ACA0C60099AF94;
+					};
+					F9A92BF022ACA0C70099AF94 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F9A92BD122ACA0C60099AF94;
+					};
+				};
+			};
+			buildConfigurationList = F9A92BCD22ACA0C60099AF94 /* Build configuration list for PBXProject "Chromecast_debug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9A92BC922ACA0C60099AF94;
+			productRefGroup = F9A92BD322ACA0C60099AF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A92BD122ACA0C60099AF94 /* Chromecast_debug */,
+				F9A92BE522ACA0C70099AF94 /* Chromecast_debugTests */,
+				F9A92BF022ACA0C70099AF94 /* Chromecast_debugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A92BD022ACA0C60099AF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A92BE022ACA0C70099AF94 /* LaunchScreen.storyboard in Resources */,
+				F9A92BDD22ACA0C70099AF94 /* Assets.xcassets in Resources */,
+				F9A92BDB22ACA0C60099AF94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BE422ACA0C70099AF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BEF22ACA0C70099AF94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A92BCE22ACA0C60099AF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A92BD822ACA0C60099AF94 /* ViewController.swift in Sources */,
+				F9A92BD622ACA0C60099AF94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BE222ACA0C70099AF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A92BEB22ACA0C70099AF94 /* Chromecast_debugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A92BED22ACA0C70099AF94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A92BF622ACA0C70099AF94 /* Chromecast_debugUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9A92BE822ACA0C70099AF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A92BD122ACA0C60099AF94 /* Chromecast_debug */;
+			targetProxy = F9A92BE722ACA0C70099AF94 /* PBXContainerItemProxy */;
+		};
+		F9A92BF322ACA0C70099AF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A92BD122ACA0C60099AF94 /* Chromecast_debug */;
+			targetProxy = F9A92BF222ACA0C70099AF94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9A92BD922ACA0C60099AF94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A92BDA22ACA0C60099AF94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A92BDE22ACA0C70099AF94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A92BDF22ACA0C70099AF94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A92BF822ACA0C70099AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9A92BF922ACA0C70099AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A92BFB22ACA0C70099AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJX5V27FP4;
+				INFOPLIST_FILE = Chromecast_debug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9A92BFC22ACA0C70099AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJX5V27FP4;
+				INFOPLIST_FILE = Chromecast_debug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9A92BFE22ACA0C70099AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chromecast_debugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromecast_debug.app/Chromecast_debug";
+			};
+			name = Debug;
+		};
+		F9A92BFF22ACA0C70099AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chromecast_debugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chromecast_debug.app/Chromecast_debug";
+			};
+			name = Release;
+		};
+		F9A92C0122ACA0C70099AF94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chromecast_debugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chromecast_debug;
+			};
+			name = Debug;
+		};
+		F9A92C0222ACA0C70099AF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chromecast_debugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stompydonkey.Chromecast-debugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chromecast_debug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A92BCD22ACA0C60099AF94 /* Build configuration list for PBXProject "Chromecast_debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A92BF822ACA0C70099AF94 /* Debug */,
+				F9A92BF922ACA0C70099AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A92BFA22ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A92BFB22ACA0C70099AF94 /* Debug */,
+				F9A92BFC22ACA0C70099AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A92BFD22ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A92BFE22ACA0C70099AF94 /* Debug */,
+				F9A92BFF22ACA0C70099AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A92C0022ACA0C70099AF94 /* Build configuration list for PBXNativeTarget "Chromecast_debugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A92C0122ACA0C70099AF94 /* Debug */,
+				F9A92C0222ACA0C70099AF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A92BCA22ACA0C60099AF94 /* Project object */;
+}
